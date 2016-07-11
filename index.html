@@ -93,7 +93,7 @@
                 var oReq = new XMLHttpRequest();
                 oReq.addEventListener("load", reqListener);
 
-                oReq.open("GET", "http://api.wunderground.com/api/" + wundergroundKey + "/astronomy/q/" + state + "/" + city + ".json");
+                oReq.open("GET", "https://api.wunderground.com/api/" + wundergroundKey + "/astronomy/q/" + state + "/" + city + ".json");
 
 
                 oReq.send();
